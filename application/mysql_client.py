@@ -11,8 +11,10 @@ class MySQLClient:
         self.metadata = MetaData()
         self.table_name = Config.mysql_table
         self.table = Table(Config.mysql_table, self.metadata,
+                           Column('id', Integer),
                            Column('title', String),
                            Column('url', String),
+                           Column('slug', String),
                            Column('views', Integer))
 
     def insert_rows(self, rows):
