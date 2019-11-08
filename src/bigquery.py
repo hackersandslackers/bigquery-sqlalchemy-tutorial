@@ -9,11 +9,10 @@ class BigQueryClient:
         self.metadata = MetaData()
         self.uri = Config.bigquery_uri
         self.credentials = Config.gcp_credentials
-        self.query = Config.bigquery_query
         self.engine = create_engine(self.uri,
                                     credentials_path=self.credentials)
 
-    def fetch_bigquery_rows(self):
+    def fetch_bigquery_rows(self, query):
         """Fetch rows from BigQuery via query."""
-        results = self.engine.execute(self.query).fetchall()
+        results = self.engine.execute(query).fetchall()
         return results
