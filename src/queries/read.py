@@ -1,7 +1,7 @@
 """Read SQL queries from local files."""
 
 
-def get_query_from_file(path):
+def read_query(path):
     """Read contents of file."""
     file = open(path, 'r')
     query = file.read()
