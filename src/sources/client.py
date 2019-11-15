@@ -1,4 +1,4 @@
-"""Base Client."""
+"""Base Data Client."""
 import logging
 from sqlalchemy import Table
 

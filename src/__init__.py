@@ -4,6 +4,7 @@ from src.queries import analytics_query
 
 
 def main():
+    """Move data between sources."""
     rows = bqc.fetch_rows(analytics_query)
     updated = dbc.insert_rows(rows, replace=True)
     print(updated)
