@@ -29,6 +29,7 @@ class BaseClient:
         return rows
 
     def __construct_response(self, rows):
+        """Summarize results of an executed query."""
         columns = rows[0].keys()
         column_names = ", ".join(columns)
         num_rows = len(rows)
