@@ -11,7 +11,7 @@ googleapis-common-protos==1.6.0
 idna==2.8
 protobuf==3.10.0
 psycopg2-binary==2.8.4
-pyasn1==0.4.7
+pyasn1==0.4.8
 pyasn1-modules==0.2.7
 pybigquery==0.4.11
 PyMySQL==0.9.3

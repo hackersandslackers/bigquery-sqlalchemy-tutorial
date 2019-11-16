@@ -1,4 +1,4 @@
-# BigQuery to SQL
+# BigQuery SQLAlchemy Tutorial
 
 ![Python](https://img.shields.io/badge/Python-v3.7-blue.svg?logo=python&longCache=true&logoColor=white&colorB=5e81ac&style=flat-square&colorA=4c566a)
 ![Google Cloud BigQuery](https://img.shields.io/badge/Google--Cloud--BigQuery-v1.11.2-blue.svg?logo=Google&longCache=true&logoColor=white&colorB=5e81ac&style=flat-square&colorA=4c566a)
