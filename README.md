@@ -13,7 +13,7 @@
 
 ![BigQuery SQLAlchemy Tutorial](https://res-5.cloudinary.com/hackers/image/upload/q_auto:best/v1/2019/11/bigquery-sql.jpg)
 
-Lightweight ETL script to migrate data from BigQuery to SQL databases, or vice versa.
+Lightweight ETL script to migrate data from BigQuery to SQL databases, or vice versa. Tutorial found here: https://hackersandslackers.com/bigquery-and-sql-databases/
 
 ## Getting Started
 
