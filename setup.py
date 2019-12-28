@@ -36,7 +36,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'run = __main__',
+            'install = main:__main__',
         ],
     },
     project_urls={
