@@ -21,7 +21,7 @@ Installation is recommended with [Pipenv](https://pipenv-fork.readthedocs.io/en/
 
 ```shell
 $ git clone https://github.com/hackersandslackers/bigquery-python-tutorial.git
-$ cd bigquery-python-tutorial
+$ cd bigquery-sqlalchemy-tutorial
 $ pipenv shell
 $ pipenv update
 $ python3 main.py
