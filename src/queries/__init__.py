@@ -1,4 +1,6 @@
 from .read import read_query
 
 prefix = 'src/queries/sql'
-analytics_query = read_query(f'{prefix}/analytics.sql')
+
+queries = {'weekly_stats': read_query(f'{prefix}/weekly.sql'),
+           'monthly_stats': read_query(f'{prefix}/monthly.sql')}

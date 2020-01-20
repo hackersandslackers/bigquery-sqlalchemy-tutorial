@@ -11,15 +11,15 @@ logging.getLogger('sqlalchemy.engine').setLevel(logging.INFO)
 class BaseClient:
 
     def __init__(self, engine=None, metadata=None, table=None):
-        self.table = table
+        # self.table = table
         self.engine = engine
         self.metadata = metadata
 
-    def insert_rows(self, rows, replace=None):
+    def insert_rows(self, rows, table, replace=None):
         """Insert rows into table."""
         if replace:
-            self.engine.execute(f'TRUNCATE TABLE {self.table}')
-        table = Table(self.table, self.metadata, autoload=True)
+            self.engine.execute(f'TRUNCATE TABLE {table}')
+        table = Table(table, self.metadata, autoload=True)
         self.engine.execute(table.insert(), rows)
         return self.__construct_response(rows)
 

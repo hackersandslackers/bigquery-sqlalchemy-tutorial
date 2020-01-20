@@ -24,7 +24,7 @@ setup(
         'Programming Language :: Python :: 3.7',
     ],
     keywords='SQLAlchemy Google BigQuery SQL ETL',
-    packages=find_packages(),  # Required
+    packages=find_packages(),
     install_requires=['SQLAlchemy',
                       'PyBigQuery',
                       'PyMySQL',
