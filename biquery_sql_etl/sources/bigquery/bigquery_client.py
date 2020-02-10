@@ -1,7 +1,7 @@
 """BigQuery Client."""
 from sqlalchemy.engine import create_engine
 from sqlalchemy import MetaData
-from src.sources.client import BaseClient
+from biquery_sql_etl.sources.client import BaseClient
 
 
 class BigQueryClient(BaseClient):

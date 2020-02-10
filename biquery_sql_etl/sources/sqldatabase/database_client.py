@@ -1,13 +1,13 @@
 """SQL Database Client."""
 from sqlalchemy.engine import create_engine
 from sqlalchemy import MetaData
-from src.sources.client import BaseClient
+from biquery_sql_etl.sources.client import BaseClient
 
 
 class Database(BaseClient):
 
     def __init__(self,
-                 type,
+                 db_type,
                  username=None,
                  password=None,
                  host=None,
@@ -15,16 +15,16 @@ class Database(BaseClient):
                  table=None,
                  db_name=None):
         self.table = table
-        self.type = self.__conection_type(type)
+        self.type = self.__connection_type(db_type)
         self.engine = create_engine(f'{self.type}://{username}:{password}@{host}:{port}/{db_name}')
         super().__init__(engine=self.engine,
                          metadata=MetaData(bind=self.engine),
                          table=table)
 
     @staticmethod
-    def __conection_type(type):
-        if type.lower() == 'mysql':
+    def __connection_type(db_type):
+        if db_type.lower() == 'mysql':
             return 'mysql+pymysql'
-        if type.lower() == 'postgres':
+        if db_type.lower() == 'postgres':
             return 'postgresql+psycopg2'
         return None

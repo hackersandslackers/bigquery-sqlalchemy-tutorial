@@ -1,9 +1,9 @@
-from config.sql_config import (database_username,
-                               database_password,
-                               database_host,
-                               database_port,
-                               database_table,
-                               database_name)
+from config import (database_username,
+                    database_password,
+                    database_host,
+                    database_port,
+                    database_table,
+                    database_name)
 from .database_client import Database
 
 dbc = Database('mysql',

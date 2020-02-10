@@ -1,5 +1,5 @@
 """Application entry point."""
-from src import main
+from biquery_sql_etl import main
 
 if __name__ == '__main__':
     main()
