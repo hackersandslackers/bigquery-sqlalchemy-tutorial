@@ -1,5 +1,5 @@
 SELECT
-  REPLACE(REPLACE(REPLACE(title, ' | Hackers and Slackers', ''), ' | Hackers And Slackers', ''), '- Hackers and Slackers', '') as title,
+  REPLACE(title, ' - Hackers and Slackers', '') as title,
   url,
   REPLACE(REPLACE(url, 'https://hackersandslackers.com/', ''), '/' , '') as slug,
   COUNT(title) AS views
