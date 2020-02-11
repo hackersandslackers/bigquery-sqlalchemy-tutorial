@@ -1,11 +1,5 @@
 """Base Data Client."""
-import logging
 from sqlalchemy import Table
-
-
-logging.basicConfig(filename='logs/queries.log',
-                    format='%(asctime)s %(message)s')
-logging.getLogger('sqlalchemy.engine').setLevel(logging.INFO)
 
 
 class BaseClient:

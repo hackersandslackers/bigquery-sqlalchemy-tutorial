@@ -1,2 +1,1 @@
-from .bigquery import bqc
-from .sqldatabase import dbc
+all = ['bigquery', 'sqldatabase']

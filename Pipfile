@@ -10,6 +10,7 @@ SQLAlchemy = "*"
 PyBigQuery = "*"
 PyMySQL = "*"
 Psycopg2-Binary = "*"
+Loguru = "*"
 
 [requires]
 python_version = "3.7"

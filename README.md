@@ -13,16 +13,38 @@
 
 ![BigQuery SQLAlchemy Tutorial](https://res-5.cloudinary.com/hackers/image/upload/q_auto:best/v1/2019/11/bigquery-sql.jpg)
 
-Lightweight ETL script to migrate data from BigQuery to SQL databases, or vice versa.
+Lightweight ETL script to migrate data from BigQuery to SQL databases, or vice versa. Tutorial found here: https://hackersandslackers.com/bigquery-and-sql-databases/
 
 ## Getting Started
 
-Installation is recommended with [Pipenv](https://pipenv-fork.readthedocs.io/en/latest/):
+Installation via [Pipenv](https://pipenv-fork.readthedocs.io/en/latest/):
 
 ```shell
 $ git clone https://github.com/hackersandslackers/bigquery-python-tutorial.git
-$ cd bigquery-python-tutorial
+$ cd bigquery-sqlalchemy-tutorial
 $ pipenv shell
 $ pipenv update
 $ python3 main.py
 ```
+
+Installation via [Poetry](https://python-poetry.org/):
+
+```shell
+$ git clone https://github.com/hackersandslackers/bigquery-python-tutorial.git
+$ cd bigquery-sqlalchemy-tutorial
+$ poetry install
+$ poetry run
+```
+
+Alternatively, try installing via `setup.py`:
+
+```shell
+$ git clone https://github.com/hackersandslackers/bigquery-python-tutorial.git
+$ cd bigquery-sqlalchemy-tutorial
+$ python3 setup.py install
+$ python3 main.py
+```
+
+-----
+
+**Hackers and Slackers** tutorials are free of charge. If you found this tutorial helpful, a [small donation](https://www.buymeacoffee.com/hackersslackers) would be greatly appreciated to keep us in business. All proceeds go towards coffee, and all coffee goes towards more content.
