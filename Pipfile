@@ -9,8 +9,7 @@ verify_ssl = true
 SQLAlchemy = "*"
 PyBigQuery = "*"
 PyMySQL = "*"
-Psycopg2-Binary = "*"
 Loguru = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.8"

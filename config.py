@@ -15,5 +15,5 @@ rdbms_port = environ.get('DATABASE_PORT')
 rdbms_name = environ.get('DATABASE_NAME')
 rdbms_uri = f'mysql+pymysql://{rdbms_user}:{rdbms_pass}@{rdbms_host}:{rdbms_port}/{rdbms_name}'
 
-# Local
+# Locally stored queries
 local_sql_folder = 'sql'

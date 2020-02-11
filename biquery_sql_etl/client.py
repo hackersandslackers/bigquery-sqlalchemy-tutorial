@@ -1,4 +1,4 @@
-"""Base Data Client."""
+"""Generic Client for interacting with data sources."""
 from sqlalchemy import MetaData, Table
 
 

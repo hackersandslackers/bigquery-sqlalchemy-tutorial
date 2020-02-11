@@ -5,7 +5,7 @@ from config import local_sql_folder
 
 
 def get_local_sql_files():
-    """Fetch all SQL query files in folder."""
+    """Fetch all .sql files from local folder."""
     files = [local_sql_folder + '/' + f for f in listdir(local_sql_folder) if isfile(join(local_sql_folder, f)) if '.sql' in f]
     return files
 

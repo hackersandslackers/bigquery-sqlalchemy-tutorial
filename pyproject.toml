@@ -1,12 +1,12 @@
 [tool.poetry]
 name = "biquery_sql_etl"
-version = "0.1.0"
-description = "Simple Python project built with Poetry."
+version = "1.0.0"
+description = "Light ETL script to migrate data from BigQuery to SQL and vice-versa."
 authors = ["Todd Birchard <toddbirchard@gmail.com>"]
 maintainers = ["Todd Birchard <toddbirchard@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-homepage = ""
+homepage = "https://hackersandslackers.com/bigquery-and-sql-databases/"
 repository = "https://github.com/hackersandslackers/bigquery-sqlalchemy-tutorial/"
 documentation = "https://hackersandslackers.com/bigquery-and-sql-databases/"
 keywords = ["BigQuery",
@@ -16,11 +16,10 @@ keywords = ["BigQuery",
             "Google Cloud"]
 
 [tool.poetry.dependencies]
-Python = "^3.7"
+Python = "^3.8"
 SQLAlchemy = "*"
 PyBigQuery = "*"
 PyMySQL = "*"
-Psycopg2-Binary = "*"
 Loguru = "*"
 
 [tool.poetry.dev-dependencies]
