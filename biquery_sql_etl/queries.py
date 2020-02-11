@@ -22,6 +22,12 @@ def read_sql_queries():
     return file_contents
 
 
+def get_table_name(file_names):
+    """Assume that table names of queries are [FILE_NAME]_stats."""
+    tables = [f"{file.split('.')[0]}_stats" for file in file_names]
+    return tables
+
+
 def create_query_dict():
     """Create dictionary of queries for logging purposes."""
     file_names = listdir(local_sql_folder)
@@ -29,12 +35,6 @@ def create_query_dict():
     table_names = get_table_name(file_names)
     files = dict(zip(table_names, file_contents))
     return files
-
-
-def get_table_name(file_names):
-    """Assume that table names of queries are [FILE_NAME]_stats."""
-    tables = [f"{file.split('.')[0]}_stats" for file in file_names]
-    return tables
 
 
 sql_queries = create_query_dict()

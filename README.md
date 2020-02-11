@@ -27,7 +27,6 @@ $ pipenv update
 $ python3 main.py
 ```
 
-<<<<<<< HEAD
 Installation via [Poetry](https://python-poetry.org/):
 
 ```shell
@@ -37,8 +36,6 @@ $ poetry install
 $ poetry run
 ```
 
-=======
->>>>>>> 5ec1fda5600620aa22b8d53ad87226fe689b5151
 Alternatively, try installing via `setup.py`:
 
 ```shell
