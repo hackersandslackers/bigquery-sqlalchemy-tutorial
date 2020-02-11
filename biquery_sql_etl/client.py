@@ -23,7 +23,7 @@ class DataClient:
         self.engine.execute(self.table.insert(), rows)
         return self.construct_response(rows, table)
 
-    def fetch_rows(self, query, table=None):
+    def fetch_rows(self, query):
         """Fetch all rows via query."""
         rows = self.engine.execute(query).fetchall()
         return rows

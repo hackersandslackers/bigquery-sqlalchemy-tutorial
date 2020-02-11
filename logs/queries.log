@@ -1,1 +1,4 @@
 # QUERY HISTORY
+2020-02-11T07:29:26.499248-0500 Inserted 100 rows into `weekly_stats` with 4 columns: title, url, slug, views
+2020-02-11T07:29:28.552129-0500 Inserted 500 rows into `monthly_stats` with 4 columns: title, url, slug, views
+2020-02-11T07:29:28.552409-0500 Completed migration of 600 rows from BigQuery to MySQL.
