@@ -18,7 +18,7 @@ pyasn1-modules==0.2.8
 pyasn1==0.4.8
 pybigquery==0.4.13
 pycparser==2.20
-pymysql==0.9.3
+pymysql==0.10.0
 pytz==2020.1
 requests==2.24.0
 rsa==4.6 ; python_version >= '3.5'
