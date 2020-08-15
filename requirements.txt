@@ -12,13 +12,13 @@ google-crc32c==0.1.0 ; python_version >= '3.5'
 google-resumable-media==0.7.1
 googleapis-common-protos==1.52.0
 idna==2.10
-loguru==0.4.1
+loguru==0.5.1
 protobuf==3.13.0
 pyasn1-modules==0.2.8
 pyasn1==0.4.8
 pybigquery==0.4.13
 pycparser==2.20
-pymysql==0.9.3
+pymysql==0.10.0
 pytz==2020.1
 requests==2.24.0
 rsa==4.6 ; python_version >= '3.5'
