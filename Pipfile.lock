@@ -196,10 +196,11 @@
         },
         "pybigquery": {
             "hashes": [
-                "sha256:0d235c8a4e84b69f49f71cc9181c77d63ccdb33bf927d62fd5a5eaaf7c8882db"
+                "sha256:753b0df79df0918a11f194ec71b91d8859f1977289429babf7de328c7b1a013f",
+                "sha256:8cd2b0b947867eea70c39c85e2c6b69c7187fd649d9472658dd284391c5584c8"
             ],
             "index": "pypi",
-            "version": "==0.4.13"
+            "version": "==0.4.15"
         },
         "pycparser": {
             "hashes": [
