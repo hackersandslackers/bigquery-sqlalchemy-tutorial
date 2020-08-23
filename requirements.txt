@@ -1,7 +1,7 @@
 -i https://pypi.org/simple/
 cachetools==4.1.1
 certifi==2020.6.20
-cffi==1.14.1
+cffi==1.14.2
 chardet==3.0.4
 future==0.18.2
 google-api-core==1.22.1
