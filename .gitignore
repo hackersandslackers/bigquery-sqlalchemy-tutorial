@@ -114,6 +114,9 @@ hackersandslackers-204807-a78d7cf1d0d8.json
 # .DS_Store
 .DS_Store
 
+# logs
+logs/*
+
 # Pycharm
 .idea
 .idea/.gitignore
