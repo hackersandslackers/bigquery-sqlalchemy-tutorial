@@ -18,7 +18,7 @@ pyasn1-modules==0.2.8
 pybigquery==0.4.15
 pycparser==2.20
 PyMySQL==0.10.0
-pytz==2020.1
+pytz==2020.5
 requests==2.24.0
 rsa==4.6
 six==1.15.0
