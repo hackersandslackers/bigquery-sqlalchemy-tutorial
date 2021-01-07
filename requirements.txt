@@ -1,26 +1,29 @@
-cachetools==4.1.1
-certifi==2020.6.20
-cffi==1.14.2
-chardet==3.0.4
+-i https://pypi.org/simple/
+cachetools==4.2.0
+certifi==2020.12.5
+cffi==1.14.4
+chardet==4.0.0
 future==0.18.2
-google-api-core==1.22.1
-google-auth==1.21.0
-google-cloud-bigquery==1.27.2
-google-cloud-core==1.4.1
-google-crc32c==1.0.0
-google-resumable-media==1.0.0
+google-api-core[grpc]==1.24.1
+google-auth==1.24.0
+google-cloud-bigquery==2.6.1
+google-cloud-core==1.5.0
+google-crc32c==1.1.0 ; python_version >= '3.5'
+google-resumable-media==1.2.0
 googleapis-common-protos==1.52.0
+grpcio==1.34.0
 idna==2.10
 loguru==0.5.1
-protobuf==3.13.0
-pyasn1==0.4.8
+proto-plus==1.13.0
+protobuf==3.14.0
 pyasn1-modules==0.2.8
+pyasn1==0.4.8
 pybigquery==0.4.15
 pycparser==2.20
-PyMySQL==0.10.0
-pytz==2020.1
-requests==2.24.0
-rsa==4.6
+pymysql==1.0.0
+pytz==2020.5
+requests==2.25.1
+rsa==4.6 ; python_version >= '3.6'
 six==1.15.0
-SQLAlchemy==1.3.19
-urllib3==1.25.10
+sqlalchemy==1.3.19
+urllib3==1.26.2
