@@ -11,7 +11,7 @@ google-crc32c==1.0.0
 google-resumable-media==1.0.0
 googleapis-common-protos==1.52.0
 idna==2.10
-loguru==0.5.1
+loguru==0.5.3
 protobuf==3.13.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
